@@ -5,9 +5,9 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="input-group">
-                            <input v-on:change="timKiem()" type="text" v-model="search.noi_dung" class="form-control border-primary"
-                                placeholder="Soát vé">
-                            <button v-on:click="timKiem()" class="btn btn-primary">Tìm
+                            <input @keyup.enter="timKiem" type="text" v-model="search.noi_dung" class="form-control border-primary"
+                                placeholder="Soát vé" autocomplete="off">
+                             <button v-on:click="timKiem()" class="btn btn-primary">Tìm
                                 kiếm</button>
                         </div>
                     </div>
@@ -65,7 +65,8 @@ export default {
                 noi_dung: '',
             },
             status: null,
-            ve: {}
+            ve: {},
+            isLoading: false,
         }
     },
     mounted() {
@@ -73,21 +74,35 @@ export default {
     },
     methods: {
         timKiem() {
-            axios
-                .post("http://127.0.0.1:8000/api/admin/ve/soat-ve", this.search, {
-                    headers: {
-                        Authorization: 'Bearer ' + localStorage.getItem("key_admin")
-                    }
-                })
+            const q = (this.search.noi_dung || '').trim();
+            if (!q) {
+                this.$toast.error('Vui lòng nhập mã vé');
+                return;
+            }
+            if (this.isLoading) return;
+            this.isLoading = true;
+            const token = localStorage.getItem("key_admin");
+            const headers = token ? { Authorization: 'Bearer ' + token } : {};
+            axios.post("http://127.0.0.1:8000/api/admin/ve/soat-ve", { noi_dung: q }, { headers })
                 .then((res) => {
-                    if (res.data.status) {
+                    console.log('soat-ve res:', res); // xem cấu trúc response
+                    if (res.data && res.data.status) {
                         this.ve = res.data.data;
-                        this.status = res.data.status;
+                        this.status = 1;
+                        // nếu cần giữ mã để quét liên tiếp, bỏ dòng dưới
                         this.search.noi_dung = '';
                     } else {
-                        this.status = res.data.status;
-                        this.$toast.error(res.data.message);
+                        this.status = 0;
+                        this.$toast.error(res.data?.message || 'Không tìm thấy vé');
                     }
+                })
+                .catch((err) => {
+                    console.error('soat-ve error:', err);
+                    this.status = 0;
+                    this.$toast.error(err.response?.data?.message || 'Lỗi kết nối hoặc lỗi server');
+                })
+                .finally(() => {
+                    this.isLoading = false;
                 });
         },
     }

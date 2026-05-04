@@ -139,7 +139,7 @@
     <!-- Location Section -->
     <div id="locations" class="bg-light py-5">
         <div class="container">
-            <div class="row mb-4">
+            <div class="row mb-4">MP
                 <div class="col-12 text-center">
                     <h2 class="fw-bold">Hệ thống rạp</h2>
                     <div class="d-inline-block bg-danger" style="width: 60px; height: 3px; margin-bottom: 30px;"></div>

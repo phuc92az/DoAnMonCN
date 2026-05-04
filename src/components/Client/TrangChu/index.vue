@@ -41,9 +41,9 @@
     </div>
 
     <div class="container my-4">
-        <!-- Dịch vụ DZCINEMA -->
+        <!-- Dịch vụ MPCINEMA -->
         <div class="card p-4">
-            <h3 class="text-center mb-4">DỊCH VỤ TẠI DZCINEMA</h3>
+            <h3 class="text-center mb-4">DỊCH VỤ TẠI MPCINEMA</h3>
             <div class="row text-center">
                 <div class="col-md-3 mb-3">
                     <i class="fa fa-ticket fa-3x text-danger mb-2"></i>
@@ -126,7 +126,7 @@
                     <h4 class="fw-bold mb-3">
                         <span class="text-danger">Mua vé xem phim </span>
                         <span class="text-primary">Online </span>
-                        <span class=" text-light">trên DZCinema</span>
+                        <span class=" text-light">trên MPCinema</span>
                     </h4>
                     <p class="text-light fs-5 mb-4">
                         Trải nghiệm mua vé trực tuyến dễ dàng, nhiều ưu đãi hấp dẫn và kết nối với các cụm rạp lớn trên
@@ -202,7 +202,7 @@
                 </div>
             </template>
         </div>
-        <h3 class="text-center mb-4 fw-bold ">Khách Hàng Nói Gì Về DZCinema?</h3>
+        <h3 class="text-center mb-4 fw-bold ">Khách Hàng Nói Gì Về MPCinema?</h3>
         <div class="row justify-content-center">
             <div class="col-md-4 mb-3">
                 <div class="card h-100 shadow-sm " style="background-color: #000957;">
@@ -223,7 +223,7 @@
                             <span class="text-warning">&#9733;</span>
                         </div>
                         <div class="fst-italic text-light" style="font-size: 1em;">
-                            "Rạp DZCinema có không gian hiện đại, âm thanh sống động và dịch vụ tuyệt vời. Tôi và gia
+                            "Rạp MPCinema có không gian hiện đại, âm thanh sống động và dịch vụ tuyệt vời. Tôi và gia
                             đình luôn chọn nơi đây mỗi cuối tuần để thư giãn."
                         </div>
                     </div>
@@ -248,7 +248,7 @@
                             <span class="text-warning">&#9733;</span>
                         </div>
                         <div class="fst-italic text-light" style="font-size: 1em;">
-                            "Tôi rất thích đặt vé online trên website DZCinema – giao diện trực quan, thanh toán dễ dàng
+                            "Tôi rất thích đặt vé online trên website MPCinema – giao diện trực quan, thanh toán dễ dàng
                             và đặc biệt là chọn được chỗ ngồi yêu thích."
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                             <span class="text-warning">&#9733;</span>
                         </div>
                         <div class="fst-italic text-light" style="font-size: 1em;">
-                            "Combo bắp nước giá hợp lý, phim mới cập nhật liên tục, hệ thống ghế ngồi êm ái – DZCinema
+                            "Combo bắp nước giá hợp lý, phim mới cập nhật liên tục, hệ thống ghế ngồi êm ái – MPCinema
                             là lựa chọn hàng đầu của mình khi đi xem phim cùng bạn bè."
                         </div>
                     </div>

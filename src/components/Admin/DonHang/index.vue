@@ -242,6 +242,17 @@ export default {
                         this.list_don_hang = res.data.data;
                     }
                 });
+        },
+        changestatus(){
+            axios.post('http://127.0.0.1:8000/api/admin/don-hang/change-status', this.don_huy)
+                .then((res) => {
+                    if (res.data.status) {
+                        this.$toast.success(res.data.message);
+                        this.getDonHang();
+                    } else {
+                        this.$toast.error(res.data.message);
+                    }
+                });
         }
     },
 }

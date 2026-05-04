@@ -6,15 +6,7 @@
     </div>
 </template>
 <script>
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/688b275bcabd591931916e1f/1j1fp3g25';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+
 import MenuClient from "../components/MenuClient.vue";
 import BotClient from "../components/BotClient.vue";
 import "../../assets/js/bootstrap.bundle.min.js";

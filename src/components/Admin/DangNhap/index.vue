@@ -9,7 +9,7 @@
                                 <div class="text-center mb-4">
                                     <img src="https://dzfullstack.com/assets/images/logo-1.png" width="150" alt="" />
                                     <h4 class="mt-3 font-weight-bold text-uppercase text-nowrap">ĐĂNG NHẬP ADMIN <span
-                                            class="text-primary">DZCinema</span></h4>
+                                            class="text-primary">MPCinema</span></h4>
                                 </div>
                                 <div class="form-body">
                                     <div class="row g-3">

@@ -7,7 +7,7 @@
 					<img src="../../assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
 				</div>
 				<div class="">
-					<h4 class="logo-text">DZ Cinema</h4>
+					<h4 class="logo-text">MP Cinema</h4>
 				</div>
 			</div>
 			<div class="mobile-toggle-menu"><i class='bx bx-menu'></i></div>
@@ -361,9 +361,10 @@
 			<div class="user-box dropdown">
 				<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
 					role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="https://dzfullstack.com/assets/images/logo-img.png" class="user-img" alt="user avatar">
+					<img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/626396204_831513869928186_3310288858979302234_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeFEQ378J-QwhMPIqhTewcGsOGENhhysX6g4YQ2GHKxfqHcgui1xApNF-ttMT9TEgoxW-zbdcPAQ2q_xTIPdzNOB&_nc_ohc=debCU6u6naQQ7kNvwFEsMls&_nc_oc=AdqC1xTniGUSnVPl-0PpdC3meQoThWpfm_i4Ke9gSTGDnDTHK5nw2ZAyjw_-zFGIcrY&_nc_zt=23&_nc_ht=scontent.fhan2-5.fna&_nc_gid=m2yMiqVVIOYv9qoEhILSgg&_nc_ss=7b2a8&oh=00_Af4NR4oqm4KGvpccP9XPCv-TGNtm6dXqBI5G8UQt3huCmw&oe=69FDCFA1"
+						class="user-img" alt="user avatar">
 					<div class="user-info ps-3">
-						<p class="user-name mb-0">DZFullStack</p>
+						<p class="user-name mb-0">MPFullStack</p>
 						<p class="designattion mb-0">Admin</p>
 					</div>
 				</a>
@@ -382,6 +383,8 @@
 	</div>
 </template>
 <script>
+import axios from 'axios';
+
 export default {
 	methods: {
 		dangXuat() {

@@ -1,7 +1,8 @@
 <template>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark py-0" style="background-color: #000957;">
-            <div class="container"> <a class="navbar-brand fs-4 fw-bold" href="#"><span
+
+            <div class="container"> <a class="navbar-brand fs-4 fw-bold" href="/"><span
                         class="text-warning">MP</span>Cinema</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"

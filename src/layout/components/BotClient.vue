@@ -15,6 +15,9 @@
                 <a class="btn btn-outline-light btn-floating m-1" href="https://linkedin.com" role="button" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/maps/place/B%E1%BA%A3o+t%C3%A0ng+M%E1%BB%B9+thu%E1%BA%ADt+%C4%90%C3%A0+N%E1%BA%B5ng/@16.0711877,108.2153662,17z/data=!4m15!1m8!3m7!1s0x3142183693ac2f0b:0x4ef30333a81bbdd1!2zNzggTMOqIER14bqpbiwgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmnhu4d0IE5hbQ!3b1!8m2!3d16.0711877!4d108.2179411!16s%2Fg%2F11kqnzb6b6!3m5!1s0x314218368e61cbef:0xf1549bd773be2c92!8m2!3d16.0711877!4d108.2179411!16s%2Fg%2F11c1nvrp3j?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D" role="button" target="_blank">
+                   <i class="fa-solid fa-map"></i>
+                </a>
             </section>
 
             <!-- Newsletter Signup -->
@@ -90,7 +93,7 @@
                             Số ĐKKD: 0317891234<br>
                             Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hồ Chí Minh<br>
                             Ngày đăng ký: 15/06/2021<br>
-                            Địa chỉ: 836 Nguyễn Hữu Thọ, P.22, Q. Thanh Khê, Tp. Đà Nẵng
+                            Địa chỉ: 78 Lê Duẫn , Hải Châu , Đà Nẵng 
                         </p>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
                         <div class="card-body flex-full">
                             <div class="border p-4 rounded">
                                 <div class="text-center">
-                                    <h3 class="text-uppercase ">Đăng ký tài khoản <b class="text-primary">dzcinema</b>
+                                    <h3 class="text-uppercase ">Đăng ký tài khoản <b class="text-primary">MPcinema</b>
                                     </h3>
                                     <p>Bạn đã có tài khoản?
                                         <router-link to="/client/dang-nhap">
@@ -70,7 +70,7 @@
                                                     id="flexSwitchCheckChecked">
                                                 <label class="form-check-label" for="flexSwitchCheckChecked">Bằng việc
                                                     đăng ký tài khoản, tôi đồng ý với Điều khoản dịch vụ &amp; Chính
-                                                    sách bảo mật của <b>DZCinema</b>.</label>
+                                                    sách bảo mật của <b>MPCinema</b>.</label>
                                             </div>
                                         </div>
                                         <div class="col-12">

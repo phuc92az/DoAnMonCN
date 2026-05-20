@@ -15,19 +15,8 @@
                                         </router-link>
                                     </p>
                                 </div>
-                                <div class="d-grid">
-                                    <a class="btn my-3 shadow-sm btn-white" href="javascript:;"> <span
-                                            class="d-flex justify-content-center align-items-center">
-                                            <img class="me-2" src="../../../assets/images/icons/search.svg" width="16"
-                                                alt="Image Description">
-                                            <span>Đăng nhập bằng Google</span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="login-separater text-center mb-4">
-                                    <span>OR</span>
-                                    <hr>
-                                </div>
+                              
+                               
                                 <div class="form-body">
                                     <div class="row g-3">
                                         <div class="col-12">

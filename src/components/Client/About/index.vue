@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 text-white">
-                        <h2 class="display-4 fw-bold text-light">Chào mừng đến với DZCinema</h2>
+                        <h2 class="display-4 fw-bold text-light">Chào mừng đến với MPCinema</h2>
                         <p class="lead">Nơi những thước phim trở nên sống động với công nghệ hình ảnh và âm thanh đỉnh
                             cao</p>
                         <button class="btn btn-danger btn-lg">Khám phá ngay</button>
@@ -21,13 +21,13 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">
-                    <h2 class="fw-bold">Về DZCinema</h2>
+                    <h2 class="fw-bold">Về MPCinema</h2>
                     <div class="d-inline-block bg-danger" style="width: 60px; height: 3px; margin-bottom: 30px;"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p>DZCinema là chuỗi rạp chiếu phim cao cấp được thành lập vào năm 2023, mang đến trải nghiệm điện
+                    <p>MPCinema là chuỗi rạp chiếu phim cao cấp được thành lập vào năm 2023, mang đến trải nghiệm điện
                         ảnh đẳng cấp quốc tế với công nghệ chiếu phim tiên tiến nhất hiện nay.</p>
                     <p>Với sứ mệnh "Nâng tầm trải nghiệm điện ảnh Việt Nam", chúng tôi không ngừng đầu tư vào cơ sở vật
                         chất, dịch vụ khách hàng và công nghệ để mang đến những giây phút giải trí tuyệt vời nhất cho
@@ -38,7 +38,7 @@
                 <div class="col-md-6">
                     <div class="rounded overflow-hidden">
                         <img src="https://anhduyenaudio.vn/files/files/xem%20phim/man-hinh-chieu-co-dinh.jpg"
-                            alt="Hình ảnh DZCinema" class="img-fluid w-100">
+                            alt="Hình ảnh MPCinema" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                         </div>
                         <h4>Khu ẩm thực cao cấp</h4>
                         <p class="mb-0">Thưởng thức các món ăn và đồ uống đa dạng từ khắp nơi trên thế giới tại khu ẩm
-                            thực sang trọng của DZCinema.</p>
+                            thực sang trọng của MPCinema.</p>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-2">
                     <h3>Trải nghiệm điện ảnh đỉnh cao</h3>
-                    <p>DZCinema tự hào sở hữu những công nghệ chiếu phim tiên tiến nhất trên thế giới:</p>
+                    <p>MPCinema tự hào sở hữu những công nghệ chiếu phim tiên tiến nhất trên thế giới:</p>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item bg-transparent"><i
                                 class="bi bi-check-circle-fill text-success me-2"></i> Màn hình 4K Crystal LED với độ
@@ -129,7 +129,7 @@
                 <div class="col-md-6 order-md-1">
                     <div class="rounded overflow-hidden">
                         <img src="https://img.global.news.samsung.com/vn/wp-content/uploads/2018/12/Samsung_Onyx_Cinema_LED_Vietnam_thumb.jpg"
-                            alt="Hình ảnh công nghệ DZCinema" class="img-fluid w-100">
+                            alt="Hình ảnh công nghệ MPCinema" class="img-fluid w-100">
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">DZCinema Hà Nội</h5>
+                            <h5 class="card-title">MPCinema Hà Nội</h5>
                             <p class="card-text">Tầng 5, TTTM Vincom Bà Triệu, Hai Bà Trưng, Hà Nội</p>
                             <p class="mb-0"><i class="bi bi-telephone me-2"></i> 024.3974.8888</p>
                         </div>
@@ -158,7 +158,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">DZCinema Đà Nẵng</h5>
+                            <h5 class="card-title">MPCinema Đà Nẵng</h5>
                             <p class="card-text">Tầng 4, Vincom Plaza Ngô Quyền, Sơn Trà, Đà Nẵng</p>
                             <p class="mb-0"><i class="bi bi-telephone me-2"></i> 0236.3754.9999</p>
                         </div>
@@ -167,7 +167,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">DZCinema TP.HCM 1</h5>
+                            <h5 class="card-title">MPCinema TP.HCM 1</h5>
                             <p class="card-text">Tầng 5, Saigon Centre, 65 Lê Lợi, Quận 1, TP.HCM</p>
                             <p class="mb-0"><i class="bi bi-telephone me-2"></i> 028.3821.7777</p>
                         </div>
@@ -176,7 +176,7 @@
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">DZCinema TP.HCM 2</h5>
+                            <h5 class="card-title">MPCinema TP.HCM 2</h5>
                             <p class="card-text">Tầng 3, SC VivoCity, 1058 Nguyễn Văn Linh, Quận 7, TP.HCM</p>
                             <p class="mb-0"><i class="bi bi-telephone me-2"></i> 028.3622.5555</p>
                         </div>
